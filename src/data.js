@@ -27,16 +27,19 @@ export const sliderItems = [
       id: 1,
       img: "https://ghazalexpress.com/image/cache/catalog/Stand%20for%20arranging%20accessories-1-550x550.JPG",
       title: "Bracelts!",
+      cat:"bracelts"
     },
     {
       id: 2,
       img: "https://www.ogondesigns.com/en/pics/data/slides/visuelMobilesEn/55-760x0.jpg",
       title: "Wallets",
+      cat:"wallets"
     },
     {
       id: 3,
       img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/affordable-watches-1575670104.jpg",
       title: "Hand Watches",
+      title: "handwatches",
     },
   ];
 
