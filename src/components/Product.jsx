@@ -67,6 +67,7 @@ const Info = styled.div`
   `;
   
   const Product = ({ item }) => {
+    console.log(item)
     return (
       <Container>
         <Circle />
@@ -76,7 +77,7 @@ const Info = styled.div`
             <ShoppingCartOutlined />
           </Icon>
           <Icon>
-            <Link to={`/product/${item.id}`}>
+            <Link to={`/product/${item._id}`}>
             <SearchOutlined />
             </Link>
           </Icon>
